@@ -1,0 +1,8 @@
+SELECT *
+FROM smiling-landing-383014.fibergoogledata.market_1
+UNION ALL
+SELECT *
+FROM smiling-landing-383014.fibergoogledata.market_2
+UNION ALL
+SELECT *
+FROM smiling-landing-383014.fibergoogledata.market_3

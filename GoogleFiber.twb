@@ -1,0 +1,2711 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' inline='true' name='federated.0nerh9y0nibjhz153zh4515lg3xg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bq-results-20231109-183402-1699554882934 Target Table' name='textscan.0tpe088163dc3v1cw5ils0er1we0'>
+            <connection class='textscan' directory='C:/Users/Bilal/Desktop/Google Fibre' filename='bq-results-20231109-183402-1699554882934 Target Table.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0tpe088163dc3v1cw5ils0er1we0' name='bq-results-20231109-183402-1699554882934 Target Table.csv' table='[bq-results-20231109-183402-1699554882934 Target Table#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_150' separator=','>
+            <column datatype='date' name='date_created' ordinal='0' />
+            <column datatype='integer' name='contacts_n' ordinal='1' />
+            <column datatype='integer' name='contacts_n_1' ordinal='2' />
+            <column datatype='integer' name='contacts_n_2' ordinal='3' />
+            <column datatype='integer' name='contacts_n_3' ordinal='4' />
+            <column datatype='integer' name='contacts_n_4' ordinal='5' />
+            <column datatype='integer' name='contacts_n_5' ordinal='6' />
+            <column datatype='integer' name='contacts_n_6' ordinal='7' />
+            <column datatype='integer' name='contacts_n_7' ordinal='8' />
+            <column datatype='string' name='new_type' ordinal='9' />
+            <column datatype='string' name='new_market' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0tpe088163dc3v1cw5ils0er1we0' name='bq-results-20231109-183402-1699554882934 Target Table.csv' table='[bq-results-20231109-183402-1699554882934 Target Table#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_150' separator=','>
+            <column datatype='date' name='date_created' ordinal='0' />
+            <column datatype='integer' name='contacts_n' ordinal='1' />
+            <column datatype='integer' name='contacts_n_1' ordinal='2' />
+            <column datatype='integer' name='contacts_n_2' ordinal='3' />
+            <column datatype='integer' name='contacts_n_3' ordinal='4' />
+            <column datatype='integer' name='contacts_n_4' ordinal='5' />
+            <column datatype='integer' name='contacts_n_5' ordinal='6' />
+            <column datatype='integer' name='contacts_n_6' ordinal='7' />
+            <column datatype='integer' name='contacts_n_7' ordinal='8' />
+            <column datatype='string' name='new_type' ordinal='9' />
+            <column datatype='string' name='new_market' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_150&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_created</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_created]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>date_created</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_1]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_2]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_3]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_3</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_4]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_4</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_5]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_5</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_6]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_6</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_7]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>contacts_n_7</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[new_type]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>new_type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_market</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[new_market]</local-name>
+            <parent-name>[bq-results-20231109-183402-1699554882934 Target Table.csv]</parent-name>
+            <remote-alias>new_market</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+      <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+      <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+      <column caption='Contacts N 2' datatype='integer' name='[contacts_n_2]' role='measure' type='quantitative' />
+      <column caption='Contacts N 3' datatype='integer' name='[contacts_n_3]' role='measure' type='quantitative' />
+      <column caption='Contacts N 4' datatype='integer' name='[contacts_n_4]' role='measure' type='quantitative' />
+      <column caption='Contacts N 5' datatype='integer' name='[contacts_n_5]' role='measure' type='quantitative' />
+      <column caption='Contacts N 6' datatype='integer' name='[contacts_n_6]' role='measure' type='quantitative' />
+      <column caption='Contacts N 7' datatype='integer' name='[contacts_n_7]' role='measure' type='quantitative' />
+      <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+      <column caption='New Market' datatype='string' name='[new_market]' role='dimension' type='nominal' />
+      <column caption='New Type' datatype='string' name='[new_type]' role='dimension' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n]' derivation='Sum' name='[diff:sum:contacts_n:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n]' derivation='Sum' name='[sum:contacts_n:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_1]' derivation='Sum' name='[sum:contacts_n_1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_2]' derivation='Sum' name='[sum:contacts_n_2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_3]' derivation='Sum' name='[sum:contacts_n_3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_4]' derivation='Sum' name='[sum:contacts_n_4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_5]' derivation='Sum' name='[sum:contacts_n_5:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_6]' derivation='Sum' name='[sum:contacts_n_6:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_7]' derivation='Sum' name='[sum:contacts_n_7:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[date_created]' derivation='Weekday' name='[wd:date_created:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[wd:date_created:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2022</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[diff:sum:contacts_n:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[pcto:sum:contacts_n:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_4:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_3:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[__tableau_internal_object_id__].[cnt:bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_6:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_2:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_5:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_1:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_7:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bq-results-20231109-183402-1699554882934 Target Table.csv' id='bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD'>
+            <properties context=''>
+              <relation connection='textscan.0tpe088163dc3v1cw5ils0er1we0' name='bq-results-20231109-183402-1699554882934 Target Table.csv' table='[bq-results-20231109-183402-1699554882934 Target Table#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_150' separator=','>
+                  <column datatype='date' name='date_created' ordinal='0' />
+                  <column datatype='integer' name='contacts_n' ordinal='1' />
+                  <column datatype='integer' name='contacts_n_1' ordinal='2' />
+                  <column datatype='integer' name='contacts_n_2' ordinal='3' />
+                  <column datatype='integer' name='contacts_n_3' ordinal='4' />
+                  <column datatype='integer' name='contacts_n_4' ordinal='5' />
+                  <column datatype='integer' name='contacts_n_5' ordinal='6' />
+                  <column datatype='integer' name='contacts_n_6' ordinal='7' />
+                  <column datatype='integer' name='contacts_n_7' ordinal='8' />
+                  <column datatype='string' name='new_type' ordinal='9' />
+                  <column datatype='string' name='new_market' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Data' inline='true' name='federated.1a96bgt1987kld1a5dhlp0cknrr2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='market_1' name='textscan.0ovk0141xh0jkm16ho1xb07imqwn'>
+            <connection class='textscan' directory='C:/Users/Bilal/Desktop/Cyclistic/GoogleFiber.twb Files/Users/patricklau/Downloads' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='market_1.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='date_created' />
+            <column datatype='integer' name='contacts_n' />
+            <column datatype='integer' name='contacts_n_1' />
+            <column datatype='integer' name='contacts_n_2' />
+            <column datatype='integer' name='contacts_n_3' />
+            <column datatype='integer' name='contacts_n_4' />
+            <column datatype='integer' name='contacts_n_5' />
+            <column datatype='integer' name='contacts_n_6' />
+            <column datatype='integer' name='contacts_n_7' />
+            <column datatype='string' name='new_type' />
+            <column datatype='string' name='new_market' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_1.csv' table='[market_1#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='date_created' ordinal='0' />
+              <column datatype='integer' name='contacts_n' ordinal='1' />
+              <column datatype='integer' name='contacts_n_1' ordinal='2' />
+              <column datatype='integer' name='contacts_n_2' ordinal='3' />
+              <column datatype='integer' name='contacts_n_3' ordinal='4' />
+              <column datatype='integer' name='contacts_n_4' ordinal='5' />
+              <column datatype='integer' name='contacts_n_5' ordinal='6' />
+              <column datatype='integer' name='contacts_n_6' ordinal='7' />
+              <column datatype='integer' name='contacts_n_7' ordinal='8' />
+              <column datatype='string' name='new_type' ordinal='9' />
+              <column datatype='string' name='new_market' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_2.csv' table='[market_2#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='date_created' ordinal='0' />
+              <column datatype='integer' name='contacts_n' ordinal='1' />
+              <column datatype='integer' name='contacts_n_1' ordinal='2' />
+              <column datatype='integer' name='contacts_n_2' ordinal='3' />
+              <column datatype='integer' name='contacts_n_3' ordinal='4' />
+              <column datatype='integer' name='contacts_n_4' ordinal='5' />
+              <column datatype='integer' name='contacts_n_5' ordinal='6' />
+              <column datatype='integer' name='contacts_n_6' ordinal='7' />
+              <column datatype='integer' name='contacts_n_7' ordinal='8' />
+              <column datatype='string' name='new_type' ordinal='9' />
+              <column datatype='string' name='new_market' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_3.csv' table='[market_3#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='date_created' ordinal='0' />
+              <column datatype='integer' name='contacts_n' ordinal='1' />
+              <column datatype='integer' name='contacts_n_1' ordinal='2' />
+              <column datatype='integer' name='contacts_n_2' ordinal='3' />
+              <column datatype='integer' name='contacts_n_3' ordinal='4' />
+              <column datatype='integer' name='contacts_n_4' ordinal='5' />
+              <column datatype='integer' name='contacts_n_5' ordinal='6' />
+              <column datatype='integer' name='contacts_n_6' ordinal='7' />
+              <column datatype='integer' name='contacts_n_7' ordinal='8' />
+              <column datatype='string' name='new_type' ordinal='9' />
+              <column datatype='string' name='new_market' ordinal='10' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='market_1.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='date_created' />
+            <column datatype='integer' name='contacts_n' />
+            <column datatype='integer' name='contacts_n_1' />
+            <column datatype='integer' name='contacts_n_2' />
+            <column datatype='integer' name='contacts_n_3' />
+            <column datatype='integer' name='contacts_n_4' />
+            <column datatype='integer' name='contacts_n_5' />
+            <column datatype='integer' name='contacts_n_6' />
+            <column datatype='integer' name='contacts_n_7' />
+            <column datatype='string' name='new_type' />
+            <column datatype='string' name='new_market' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_1.csv' table='[market_1#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='date_created' ordinal='0' />
+              <column datatype='integer' name='contacts_n' ordinal='1' />
+              <column datatype='integer' name='contacts_n_1' ordinal='2' />
+              <column datatype='integer' name='contacts_n_2' ordinal='3' />
+              <column datatype='integer' name='contacts_n_3' ordinal='4' />
+              <column datatype='integer' name='contacts_n_4' ordinal='5' />
+              <column datatype='integer' name='contacts_n_5' ordinal='6' />
+              <column datatype='integer' name='contacts_n_6' ordinal='7' />
+              <column datatype='integer' name='contacts_n_7' ordinal='8' />
+              <column datatype='string' name='new_type' ordinal='9' />
+              <column datatype='string' name='new_market' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_2.csv' table='[market_2#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='date_created' ordinal='0' />
+              <column datatype='integer' name='contacts_n' ordinal='1' />
+              <column datatype='integer' name='contacts_n_1' ordinal='2' />
+              <column datatype='integer' name='contacts_n_2' ordinal='3' />
+              <column datatype='integer' name='contacts_n_3' ordinal='4' />
+              <column datatype='integer' name='contacts_n_4' ordinal='5' />
+              <column datatype='integer' name='contacts_n_5' ordinal='6' />
+              <column datatype='integer' name='contacts_n_6' ordinal='7' />
+              <column datatype='integer' name='contacts_n_7' ordinal='8' />
+              <column datatype='string' name='new_type' ordinal='9' />
+              <column datatype='string' name='new_market' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_3.csv' table='[market_3#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='date_created' ordinal='0' />
+              <column datatype='integer' name='contacts_n' ordinal='1' />
+              <column datatype='integer' name='contacts_n_1' ordinal='2' />
+              <column datatype='integer' name='contacts_n_2' ordinal='3' />
+              <column datatype='integer' name='contacts_n_3' ordinal='4' />
+              <column datatype='integer' name='contacts_n_4' ordinal='5' />
+              <column datatype='integer' name='contacts_n_5' ordinal='6' />
+              <column datatype='integer' name='contacts_n_6' ordinal='7' />
+              <column datatype='integer' name='contacts_n_7' ordinal='8' />
+              <column datatype='string' name='new_type' ordinal='9' />
+              <column datatype='string' name='new_market' ordinal='10' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_created</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_created]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>date_created</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_1]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_2]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_3]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_3</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_4]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_4</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_5]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_5</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_6]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_6</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contacts_n_7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contacts_n_7]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>contacts_n_7</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[new_type]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>new_type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_market</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[new_market]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>new_market</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[market_1.csv+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='market_1.csv' datatype='table' name='[__tableau_internal_object_id__].[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]' role='measure' type='quantitative' />
+      <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+      <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+      <column caption='Contacts N 2' datatype='integer' name='[contacts_n_2]' role='measure' type='quantitative' />
+      <column caption='Contacts N 3' datatype='integer' name='[contacts_n_3]' role='measure' type='quantitative' />
+      <column caption='Contacts N 4' datatype='integer' name='[contacts_n_4]' role='measure' type='quantitative' />
+      <column caption='Contacts N 5' datatype='integer' name='[contacts_n_5]' role='measure' type='quantitative' />
+      <column caption='Contacts N 6' datatype='integer' name='[contacts_n_6]' role='measure' type='quantitative' />
+      <column caption='Contacts N 7' datatype='integer' name='[contacts_n_7]' role='measure' type='quantitative' />
+      <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+      <column caption='New Market' datatype='string' name='[new_market]' role='dimension' type='nominal' />
+      <column caption='New Type' datatype='string' name='[new_type]' role='dimension' type='nominal' />
+      <column-instance column='[new_type]' derivation='None' name='[none:new_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk:14]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Pane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk:4]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='RowInPane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n_1]' derivation='Sum' name='[pcto:sum:contacts_n_1:qk:4]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Pane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n_1]' derivation='Sum' name='[pcto:sum:contacts_n_1:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[contacts_n]' derivation='Sum' name='[sum:contacts_n:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_1]' derivation='Sum' name='[sum:contacts_n_1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_2]' derivation='Sum' name='[sum:contacts_n_2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_3]' derivation='Sum' name='[sum:contacts_n_3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_4]' derivation='Sum' name='[sum:contacts_n_4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_5]' derivation='Sum' name='[sum:contacts_n_5:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_6]' derivation='Sum' name='[sum:contacts_n_6:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[contacts_n_7]' derivation='Sum' name='[sum:contacts_n_7:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[date_created]' derivation='Weekday' name='[wd:date_created:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Bilal/Desktop/Cyclistic/GoogleFiber.twb Files/Data/Google Business Intelligence Certificate_ Google Fiber Exemplar.twb Files/federated.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/30/2023 01:49:46 AM' username=''>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>date_created</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[date_created]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date_created</remote-alias>
+              <ordinal>0</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>90</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n</remote-alias>
+              <ordinal>1</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>213</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_1</remote-alias>
+              <ordinal>2</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_2</remote-alias>
+              <ordinal>3</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_3</remote-alias>
+              <ordinal>4</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_4</remote-alias>
+              <ordinal>5</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_5</remote-alias>
+              <ordinal>6</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_6</remote-alias>
+              <ordinal>7</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contacts_n_7</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contacts_n_7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contacts_n_7</remote-alias>
+              <ordinal>8</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>new_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[new_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>new_type</remote-alias>
+              <ordinal>9</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>new_market</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[new_market]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>new_market</remote-alias>
+              <ordinal>10</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>11</ordinal>
+              <family>market_1.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[wd:date_created:ok]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#7b848f'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n:qk]&quot;</bucket>
+            </map>
+            <map to='#1ba3c6'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcrk:sum:contacts_n:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:14]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:15]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:17]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:4]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk]&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_3:qk]&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_4:qk]&quot;</bucket>
+            </map>
+            <map to='#7b848f'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_6:qk]&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_2:qk]&quot;</bucket>
+            </map>
+            <map to='#a3cce9'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_7:qk]&quot;</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_5:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n_1:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n_1:qk:4]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n_1:qk]&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;[federated.1a96bgt1987kld1a5dhlp0cknrr2].[sum:contacts_n_1:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:new_type:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;type_1&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;type_4&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;type_5&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;type_3&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;type_2&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='market_1.csv' id='market_1.csv_1D86DBA7BE784346BFE0E1F6E6A8E2AB'>
+            <properties context=''>
+              <relation all='true' name='market_1.csv+' type='union'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='date_created' />
+                  <column datatype='integer' name='contacts_n' />
+                  <column datatype='integer' name='contacts_n_1' />
+                  <column datatype='integer' name='contacts_n_2' />
+                  <column datatype='integer' name='contacts_n_3' />
+                  <column datatype='integer' name='contacts_n_4' />
+                  <column datatype='integer' name='contacts_n_5' />
+                  <column datatype='integer' name='contacts_n_6' />
+                  <column datatype='integer' name='contacts_n_7' />
+                  <column datatype='string' name='new_type' />
+                  <column datatype='string' name='new_market' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_1.csv' table='[market_1#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='date' name='date_created' ordinal='0' />
+                    <column datatype='integer' name='contacts_n' ordinal='1' />
+                    <column datatype='integer' name='contacts_n_1' ordinal='2' />
+                    <column datatype='integer' name='contacts_n_2' ordinal='3' />
+                    <column datatype='integer' name='contacts_n_3' ordinal='4' />
+                    <column datatype='integer' name='contacts_n_4' ordinal='5' />
+                    <column datatype='integer' name='contacts_n_5' ordinal='6' />
+                    <column datatype='integer' name='contacts_n_6' ordinal='7' />
+                    <column datatype='integer' name='contacts_n_7' ordinal='8' />
+                    <column datatype='string' name='new_type' ordinal='9' />
+                    <column datatype='string' name='new_market' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_2.csv' table='[market_2#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='date' name='date_created' ordinal='0' />
+                    <column datatype='integer' name='contacts_n' ordinal='1' />
+                    <column datatype='integer' name='contacts_n_1' ordinal='2' />
+                    <column datatype='integer' name='contacts_n_2' ordinal='3' />
+                    <column datatype='integer' name='contacts_n_3' ordinal='4' />
+                    <column datatype='integer' name='contacts_n_4' ordinal='5' />
+                    <column datatype='integer' name='contacts_n_5' ordinal='6' />
+                    <column datatype='integer' name='contacts_n_6' ordinal='7' />
+                    <column datatype='integer' name='contacts_n_7' ordinal='8' />
+                    <column datatype='string' name='new_type' ordinal='9' />
+                    <column datatype='string' name='new_market' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0ovk0141xh0jkm16ho1xb07imqwn' name='market_3.csv' table='[market_3#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='date' name='date_created' ordinal='0' />
+                    <column datatype='integer' name='contacts_n' ordinal='1' />
+                    <column datatype='integer' name='contacts_n_1' ordinal='2' />
+                    <column datatype='integer' name='contacts_n_2' ordinal='3' />
+                    <column datatype='integer' name='contacts_n_3' ordinal='4' />
+                    <column datatype='integer' name='contacts_n_4' ordinal='5' />
+                    <column datatype='integer' name='contacts_n_5' ordinal='6' />
+                    <column datatype='integer' name='contacts_n_6' ordinal='7' />
+                    <column datatype='integer' name='contacts_n_7' ordinal='8' />
+                    <column datatype='string' name='new_type' ordinal='9' />
+                    <column datatype='string' name='new_market' ordinal='10' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='% Day 0 Repeats by Day of Week'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>% Day 0 Repeats by Day of Week</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' name='federated.0nerh9y0nibjhz153zh4515lg3xg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nerh9y0nibjhz153zh4515lg3xg'>
+            <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+            <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+            <column-instance column='[date_created]' derivation='Month' name='[mn:date_created:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Pane' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[contacts_n]' derivation='Sum' name='[sum:contacts_n:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date_created]' derivation='Weekday' name='[wd:date_created:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' />
+              <text column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0nerh9y0nibjhz153zh4515lg3xg].[mn:date_created:ok] * [federated.0nerh9y0nibjhz153zh4515lg3xg].[pcto:sum:contacts_n:qk:2])</rows>
+        <cols>[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]</cols>
+      </table>
+      <simple-id uuid='{F37439EA-760F-4184-A7DA-482D2ED5E17D}' />
+    </worksheet>
+    <worksheet name='% Day 0 by Market and Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Day 0 Calls by Market and Type across Q1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/GoogleBusinessIntelligenceCertificateGoogleFiberExemplar/Day0byMarketandType?rev=' id='73366594' path='/workbooks/GoogleBusinessIntelligenceCertificateGoogleFiberExemplar' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data' name='federated.1a96bgt1987kld1a5dhlp0cknrr2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a96bgt1987kld1a5dhlp0cknrr2'>
+            <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+            <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+            <column-instance column='[date_created]' derivation='Month' name='[mn:date_created:ok]' pivot='key' type='ordinal' />
+            <column caption='New Market' datatype='string' name='[new_market]' role='dimension' type='nominal' />
+            <column caption='New Type' datatype='string' name='[new_type]' role='dimension' type='nominal' />
+            <column-instance column='[new_market]' derivation='None' name='[none:new_market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[new_type]' derivation='None' name='[none:new_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk:14]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Pane' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:14]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' />
+              <text column='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:14]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1a96bgt1987kld1a5dhlp0cknrr2].[mn:date_created:ok] * [federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n:qk:14])</rows>
+        <cols>([federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_market:nk] / [federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk])</cols>
+      </table>
+      <simple-id uuid='{A334E0C8-1750-4DA5-B9B5-1A5DCD1DCA38}' />
+    </worksheet>
+    <worksheet name='% Day 1 by Market and Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>First Repeat Call by Market and Type across Q1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/GoogleBusinessIntelligenceCertificateGoogleFiberExemplar/Day1byMarketandType?rev=' id='73366595' path='/workbooks/GoogleBusinessIntelligenceCertificateGoogleFiberExemplar' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data' name='federated.1a96bgt1987kld1a5dhlp0cknrr2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a96bgt1987kld1a5dhlp0cknrr2'>
+            <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+            <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+            <column-instance column='[date_created]' derivation='Month' name='[mn:date_created:ok]' pivot='key' type='ordinal' />
+            <column caption='New Market' datatype='string' name='[new_market]' role='dimension' type='nominal' />
+            <column caption='New Type' datatype='string' name='[new_type]' role='dimension' type='nominal' />
+            <column-instance column='[new_market]' derivation='None' name='[none:new_market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[new_type]' derivation='None' name='[none:new_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contacts_n_1]' derivation='Sum' name='[pcto:sum:contacts_n_1:qk:4]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Pane' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' />
+              <text column='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n_1:qk:4]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1a96bgt1987kld1a5dhlp0cknrr2].[mn:date_created:ok] * [federated.1a96bgt1987kld1a5dhlp0cknrr2].[pcto:sum:contacts_n_1:qk:4])</rows>
+        <cols>([federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_market:nk] / [federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk])</cols>
+      </table>
+      <simple-id uuid='{55D51266-D50F-4D9A-9406-409AEFE04E9E}' />
+    </worksheet>
+    <worksheet name='Calls by Market and Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Calls by Market and Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' name='federated.0nerh9y0nibjhz153zh4515lg3xg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nerh9y0nibjhz153zh4515lg3xg'>
+            <_.fcp.ObjectModelTableType.true...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD:qk]' pivot='key' type='quantitative' />
+            <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+            <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+            <column caption='Contacts N 2' datatype='integer' name='[contacts_n_2]' role='measure' type='quantitative' />
+            <column caption='Contacts N 3' datatype='integer' name='[contacts_n_3]' role='measure' type='quantitative' />
+            <column caption='Contacts N 4' datatype='integer' name='[contacts_n_4]' role='measure' type='quantitative' />
+            <column caption='Contacts N 5' datatype='integer' name='[contacts_n_5]' role='measure' type='quantitative' />
+            <column caption='Contacts N 6' datatype='integer' name='[contacts_n_6]' role='measure' type='quantitative' />
+            <column caption='Contacts N 7' datatype='integer' name='[contacts_n_7]' role='measure' type='quantitative' />
+            <column caption='New Market' datatype='string' name='[new_market]' role='dimension' type='nominal' />
+            <column caption='New Type' datatype='string' name='[new_type]' role='dimension' type='nominal' />
+            <column-instance column='[new_market]' derivation='None' name='[none:new_market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[new_type]' derivation='None' name='[none:new_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contacts_n]' derivation='Sum' name='[sum:contacts_n:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_1]' derivation='Sum' name='[sum:contacts_n_1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_2]' derivation='Sum' name='[sum:contacts_n_2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_3]' derivation='Sum' name='[sum:contacts_n_3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_4]' derivation='Sum' name='[sum:contacts_n_4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_5]' derivation='Sum' name='[sum:contacts_n_5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_6]' derivation='Sum' name='[sum:contacts_n_6:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_7]' derivation='Sum' name='[sum:contacts_n_7:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='integer' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]' value='82' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_market:nk] / [federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk])</rows>
+        <cols>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{8C690D6B-41C2-4437-925C-9993A9B3CAAD}' />
+    </worksheet>
+    <worksheet name='Day 0 Calls by Day of Week'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Day 0 Calls by Day of Week</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' name='federated.0nerh9y0nibjhz153zh4515lg3xg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nerh9y0nibjhz153zh4515lg3xg'>
+            <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+            <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+            <column-instance column='[date_created]' derivation='Month' name='[mn:date_created:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[contacts_n]' derivation='Sum' name='[pcto:sum:contacts_n:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[date_created]' derivation='Weekday' name='[wd:date_created:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' />
+              <text column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[pcto:sum:contacts_n:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0nerh9y0nibjhz153zh4515lg3xg].[mn:date_created:ok] * [federated.0nerh9y0nibjhz153zh4515lg3xg].[pcto:sum:contacts_n:qk])</rows>
+        <cols>[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]</cols>
+      </table>
+      <simple-id uuid='{5104EDCF-6069-47E1-BF18-DF9ECAABFB8E}' />
+    </worksheet>
+    <worksheet name='Day 1 - Graph - Market and Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Market and Type for First Repeat Calls</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' name='federated.0nerh9y0nibjhz153zh4515lg3xg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nerh9y0nibjhz153zh4515lg3xg'>
+            <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+            <column caption='New Market' datatype='string' name='[new_market]' role='dimension' type='nominal' />
+            <column caption='New Type' datatype='string' name='[new_type]' role='dimension' type='nominal' />
+            <column-instance column='[new_market]' derivation='None' name='[none:new_market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[new_type]' derivation='None' name='[none:new_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contacts_n_1]' derivation='Sum' name='[sum:contacts_n_1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0nerh9y0nibjhz153zh4515lg3xg].[sum:contacts_n_1:qk]</rows>
+        <cols>([federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_market:nk] / [federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk])</cols>
+      </table>
+      <simple-id uuid='{AE239462-E18A-4EE5-93F9-B0018E59FB66}' />
+    </worksheet>
+    <worksheet name='Repeat Calls by First Call Date'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Repeat Calls by First Call Date</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' name='federated.0nerh9y0nibjhz153zh4515lg3xg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nerh9y0nibjhz153zh4515lg3xg'>
+            <_.fcp.ObjectModelTableType.true...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD:qk]' pivot='key' type='quantitative' />
+            <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+            <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+            <column caption='Contacts N 2' datatype='integer' name='[contacts_n_2]' role='measure' type='quantitative' />
+            <column caption='Contacts N 3' datatype='integer' name='[contacts_n_3]' role='measure' type='quantitative' />
+            <column caption='Contacts N 4' datatype='integer' name='[contacts_n_4]' role='measure' type='quantitative' />
+            <column caption='Contacts N 5' datatype='integer' name='[contacts_n_5]' role='measure' type='quantitative' />
+            <column caption='Contacts N 6' datatype='integer' name='[contacts_n_6]' role='measure' type='quantitative' />
+            <column caption='Contacts N 7' datatype='integer' name='[contacts_n_7]' role='measure' type='quantitative' />
+            <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+            <column-instance column='[contacts_n]' derivation='Sum' name='[sum:contacts_n:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_1]' derivation='Sum' name='[sum:contacts_n_1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_2]' derivation='Sum' name='[sum:contacts_n_2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_3]' derivation='Sum' name='[sum:contacts_n_3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_4]' derivation='Sum' name='[sum:contacts_n_4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_5]' derivation='Sum' name='[sum:contacts_n_5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_6]' derivation='Sum' name='[sum:contacts_n_6:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_7]' derivation='Sum' name='[sum:contacts_n_7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date_created]' derivation='Day-Trunc' name='[tdy:date_created:ok]' pivot='key' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='integer' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]' value='87' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0nerh9y0nibjhz153zh4515lg3xg].[tdy:date_created:ok]</rows>
+        <cols>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{6808848A-A7AA-4C56-A408-6D93016AD195}' />
+    </worksheet>
+    <worksheet name='Repeats by Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Repeats by Month</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20231109-183402-1699554882934 Target Table' name='federated.0nerh9y0nibjhz153zh4515lg3xg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nerh9y0nibjhz153zh4515lg3xg'>
+            <_.fcp.ObjectModelTableType.true...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD:qk]' pivot='key' type='quantitative' />
+            <column caption='Contacts N' datatype='integer' name='[contacts_n]' role='measure' type='quantitative' />
+            <column caption='Contacts N 1' datatype='integer' name='[contacts_n_1]' role='measure' type='quantitative' />
+            <column caption='Contacts N 2' datatype='integer' name='[contacts_n_2]' role='measure' type='quantitative' />
+            <column caption='Contacts N 3' datatype='integer' name='[contacts_n_3]' role='measure' type='quantitative' />
+            <column caption='Contacts N 4' datatype='integer' name='[contacts_n_4]' role='measure' type='quantitative' />
+            <column caption='Contacts N 5' datatype='integer' name='[contacts_n_5]' role='measure' type='quantitative' />
+            <column caption='Contacts N 6' datatype='integer' name='[contacts_n_6]' role='measure' type='quantitative' />
+            <column caption='Contacts N 7' datatype='integer' name='[contacts_n_7]' role='measure' type='quantitative' />
+            <column caption='Date Created' datatype='date' name='[date_created]' role='dimension' type='ordinal' />
+            <column-instance column='[date_created]' derivation='Month' name='[mn:date_created:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date_created]' derivation='Quarter' name='[qr:date_created:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[contacts_n]' derivation='Sum' name='[sum:contacts_n:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_1]' derivation='Sum' name='[sum:contacts_n_1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_2]' derivation='Sum' name='[sum:contacts_n_2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_3]' derivation='Sum' name='[sum:contacts_n_3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_4]' derivation='Sum' name='[sum:contacts_n_4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_5]' derivation='Sum' name='[sum:contacts_n_5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_6]' derivation='Sum' name='[sum:contacts_n_6:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contacts_n_7]' derivation='Sum' name='[sum:contacts_n_7:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='bq-results-20231109-183402-1699554882934 Target Table.csv' datatype='integer' name='[__tableau_internal_object_id__].[bq-results-20231109-183402-1699554882934 Target Table.csv_2F81798CEBE3433689E471F9F3B2B6FD]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]' />
+              <text column='[federated.0nerh9y0nibjhz153zh4515lg3xg].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0nerh9y0nibjhz153zh4515lg3xg].[Multiple Values]</rows>
+        <cols>([federated.0nerh9y0nibjhz153zh4515lg3xg].[qr:date_created:ok] / ([federated.0nerh9y0nibjhz153zh4515lg3xg].[mn:date_created:ok] / [federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{10F7B5CA-EABC-4F49-A19F-32081E1CBD2D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Calls Repeat Week + Month'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='49000' id='6' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='49000' id='10' name='Day 0 Calls by Day of Week' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='49000' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='24500' id='9' name='Repeats by Month' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24500' id='11' name='Day 0 Calls by Day of Week' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' type-v2='color' w='16000' x='83200' y='25500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='49000' id='5' name='Repeats by Month' w='98400' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='10' is-fixed='true' name='Day 0 Calls by Day of Week' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24500' id='11' name='Day 0 Calls by Day of Week' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' type-v2='color' w='16000' x='83200' y='25500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Repeats by Month' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24500' id='9' name='Repeats by Month' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C1129030-CC0F-4817-BE22-DB7B8C5F55AD}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Calls by First Date and Market with type'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='5' name='Repeat Calls by First Call Date' w='98400' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='3' name='Calls by Market and Type' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='9' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='8' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Calls by Market and Type' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Repeat Calls by First Call Date' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4E2D2EB4-A465-4171-8608-44A5B69F415C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Day 0 and Day 1 Calls'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='49000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='49000' id='9' name='% Day 0 by Market and Type' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='49000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='19875' id='8' name='% Day 1 by Market and Type' pane-specification-id='0' param='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='49000' id='3' name='% Day 1 by Market and Type' w='98400' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='% Day 0 by Market and Type' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='% Day 1 by Market and Type' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19875' id='8' name='% Day 1 by Market and Type' pane-specification-id='0' param='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E0D9CF0A-F6BA-4EE8-9AC8-8F763D959BEE}' />
+    </dashboard>
+    <dashboard name='Google Fiber Main Doashboard' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='First Day + Market and Type' captured-sheet='Calls by First Date and Market with type' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='Calls by Market and Type'>
+                        <selection-collection>
+                          <node-selection select-tuples='false'>
+                            <oriented-node-reference orientation='vertical'>
+                              <node-reference>
+                                <fields>
+                                  <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_market:nk]</field>
+                                </fields>
+                                <multibucket>
+                                  <bucket>&quot;market_2&quot;</bucket>
+                                </multibucket>
+                              </node-reference>
+                              <page-reference />
+                            </oriented-node-reference>
+                          </node-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Week + Month' captured-sheet='Calls Repeat Week + Month' id='4' />
+                  <story-point caption='Day 0 and Day 1 Calls' captured-sheet='Day 0 and Day 1 Calls' id='5' />
+                  <story-point caption='Repeting Calls' captured-sheet='Repeating Calls ' id='6' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{9383281C-9370-43A1-BD80-1F18F63E2375}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Repeating Calls '>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='% Day 0 Repeats by Day of Week' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='9' name='Day 1 - Graph - Market and Type' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='26125' id='8' name='% Day 0 Repeats by Day of Week' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19875' id='10' name='Day 1 - Graph - Market and Type' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]' type-v2='color' w='16000' x='83200' y='27125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='% Day 0 Repeats by Day of Week' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='26125' id='8' name='% Day 0 Repeats by Day of Week' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Day 1 - Graph - Market and Type' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19875' id='10' name='Day 1 - Graph - Market and Type' pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]' type-v2='color' w='16000' x='83200' y='27125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{09524907-A6E4-416F-8B52-F8CEAF08D03A}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='dashboard' maximized='true' name='Google Fiber Main Doashboard'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{ED851679-8BEF-45D6-898D-17F5BA5568B3}' />
+    </window>
+    <window class='worksheet' hidden='true' name='% Day 0 Repeats by Day of Week'>
+      <cards>
+        <edge name='left'>
+          <strip size='242'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{79FE268D-DF4F-48EE-8B73-2B7EEE027D08}' />
+    </window>
+    <window class='worksheet' hidden='true' name='% Day 0 by Market and Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='134'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='104'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[:Measure Names]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[dy:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[mn:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_market:nk]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[qr:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[tdy:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[wd:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[yr:date_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E6DBE14B-13B0-479B-BC86-6E6687F31BC1}' />
+    </window>
+    <window class='worksheet' hidden='true' name='% Day 1 by Market and Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[:Measure Names]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[dy:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[mn:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_market:nk]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[qr:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[tdy:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[wd:date_created:ok]</field>
+            <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[yr:date_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CE2909A4-3ED0-4651-BD8A-C089FF956999}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Calls Repeat Week + Month'>
+      <viewpoints>
+        <viewpoint name='Day 0 Calls by Day of Week'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Repeats by Month'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DF40E3F9-0DBD-455F-8BF3-C41339A59356}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Calls by First Date and Market with type'>
+      <viewpoints>
+        <viewpoint name='Calls by Market and Type' />
+        <viewpoint name='Repeat Calls by First Call Date' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{1199C611-2AC1-4527-9C5D-E6C813A1D468}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Calls by Market and Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</field>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_market:nk]</field>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EA700FFD-9F1E-4E2E-A185-0091A9419AFC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Day 0 Calls by Day of Week'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6691688B-3A8F-4323-A3C5-653CA6C5E041}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Day 0 and Day 1 Calls'>
+      <viewpoints>
+        <viewpoint name='% Day 0 by Market and Type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='% Day 1 by Market and Type'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1a96bgt1987kld1a5dhlp0cknrr2].[none:new_type:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{948E3917-E78F-441D-9016-16F744543B05}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Day 1 - Graph - Market and Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_market:nk]</field>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1580F3F1-D6BF-4494-9369-F6C3A8CAE02B}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Repeat Calls by First Call Date'>
+      <cards>
+        <edge name='left'>
+          <strip size='106'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</field>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[yr:date_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A1AE3405-1BB8-409A-8FC0-8524D9472EA6}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Repeating Calls '>
+      <viewpoints>
+        <viewpoint name='% Day 0 Repeats by Day of Week'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[wd:date_created:ok]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Day 1 - Graph - Market and Type'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[none:new_type:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{763D3EF5-50EA-4B09-A55B-A4FDD5A12A23}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Repeats by Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[:Measure Names]</field>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[qr:date_created:ok]</field>
+            <field>[federated.0nerh9y0nibjhz153zh4515lg3xg].[yr:date_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{338E4E1C-D23D-48CE-B185-FA1FD2EE1867}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Google Fiber Main Doashboard' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
